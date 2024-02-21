@@ -1,0 +1,37 @@
+{
+  "name": "fastify-better-flash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run unit && npm run test:typescript",
+    "lint": "standard && npm run lint:typescript",
+    "lint:typescript": "ts-standard",
+    "test:typescript": "tsd",
+    "unit": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "dependencies": {
+    "fastify-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "fastify": "^4.0.0-rc.2",
+    "fastify-tsconfig": "^2.0.0",
+    "prettier": "^3.2.5",
+    "standard": "^17.0.0",
+    "ts-standard": "^12.0.1",
+    "tsd": "^0.30.4",
+    "typescript": "^5.3.3",
+    "@fastify/secure-session": "^7.0.0"
+  },
+  "tsd": {
+    "directory": "test"
+  }
+}
