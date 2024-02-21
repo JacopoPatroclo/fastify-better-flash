@@ -1,7 +1,6 @@
 # fastify-better-flash
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)  ![CI workflow](__MY_PLUGIN_URL__
-/workflows/CI%20workflow/badge.svg)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)  ![CI workflow](https://github.com/JacopoPatroclo/fastify-better-flash/workflows/CI%20workflow/badge.svg)
 
 This plugin is inspired by the [@fastify/flash](https://github.com/fastify/fastify-flash/tree/master) plugin. The main difference is the way it access the messages, using a "dot syntax" and it has a better typescript support. See below for more details.
 
