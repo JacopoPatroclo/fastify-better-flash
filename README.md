@@ -19,7 +19,7 @@ yarn add fastify-better-flash @fastify/secure-session
 
 
 ## Usage
-Flash messages are stored in the session. First, we need to register the session plugin: (@fastify/secure-session)[https://www.npmjs.com/package/@fastify/secure-session].
+Flash messages are stored in the session. First, we need to register the session plugin: [@fastify/secure-session](https://www.npmjs.com/package/@fastify/secure-session).
 
 ```js
 const fastify = require('fastify')()
